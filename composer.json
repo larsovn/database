@@ -1,0 +1,19 @@
+{
+    "name": "larso/database",
+    "description": "The Database package extends from illuminate database.",
+    "require": {
+        "ext-json": "*",
+        "illuminate/database": "*",
+        "illuminate/events": "*",
+        "symfony/var-dumper": "*",
+        "illuminate/pagination": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larso\\Database\\": ""
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
