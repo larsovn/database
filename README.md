@@ -29,7 +29,7 @@ class YourClass extends LaravelModel {
 
 ### Facade
 ```
-use Larso\database\DB;
+use Larso\Database\DB;
 
 $results = DB::select('select * from users where id = ?', [1]);
 ```
