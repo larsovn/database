@@ -6,7 +6,7 @@ The Database package extend illuminate database
 ```
 // index.php
 
-use Larso\database\DatabaseService;
+use Larso\Database\DatabaseService;
 
 require 'vendor/autoload.php';
 
